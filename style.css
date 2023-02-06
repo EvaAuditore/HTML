@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+body {
+    background-color: #fdfdfd;
+}
+
+
+.logo {
+    width: 35px;
+    height: 35px;
+    
+}
+
+.logo2 {
+    width: 60px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+a {
+    color: green;
+}
+
+.subtitle {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.nav {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    
+}
+
+.nav-link {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(89, 88, 89);
+    border-radius: 10px;
+    display: block;
+    border: 1px solid transparent;
+    
+}
+
+.nav-link:hover {
+    border: 1px solid darkorchid;
+    color: darkorchid;
+    background-color:#fff ;
+}
+
+.item {
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.item-pic {
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.content {
+    margin-top: 100px ;
+}
+
+.subtitle {
+    font-family: 'Caveat', cursive;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+
+.item-box {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item {
+    margin-bottom: 50px;
+
+}
+
+.item-link {
+    padding: 5px;
+    background-color: #fff;
+    display: block;
+    border-radius: 10px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    color: black;
+}
+
+
+.title, .desc {
+    text-align: right;
+}
+
+.subtitle3 {
+    font-family: 'Caveat', cursive;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    text-align: left;
+}
+
+.product {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+
+.imgproduct {
+    border: 1px solid #0a0a0a;
+    border-radius: 10px;
+    float: left;
+}
+
+.textproduct {
+    margin-left: 550px;
+}
+
+.textproduct2 {
+    font-family: 'Caveat', cursive;
+    font-family: 'Playfair Display', serif;
+    margin-top: 30px;
+    text-align: justify;
+    font-size: 15px;
+}
+
